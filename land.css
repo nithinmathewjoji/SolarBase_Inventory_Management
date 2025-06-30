@@ -1,0 +1,29 @@
+.landing-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.btn-orange {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #ff6a00;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #e55b00;
+}
+
+.logo {
+  width: 200px;   /* Adjust width as needed */
+  height: auto;   /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;
+}

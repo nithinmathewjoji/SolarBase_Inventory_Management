@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, button {
+  padding: 0.5rem;
+  margin: 0.25rem;
+}
+.inventory-item {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background: #fafafa;
+}
+.low-stock {
+  border-color: red;
+  background: #ffe5e5;
+}
+
+
+/* Solarbase theme colors */
+body {
+  background: #fff7f0;
+  color: #1a1a1a;
+}
+
+.container {
+  border-left: 8px solid #ff6a00;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e55b00;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SolarBase Inventory Tracker</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+</head>
+<body>
+  <div class="container">
+    <img src="solarbase-logo.png" alt="Solarbase Logo" class="logo" />
+    
+    <h1>R&D Inventory Tracker</h1>
+    <div class="form">
+      <input type="text" id="itemName" placeholder="Item Name"/>
+      <input type="number" id="quantity" placeholder="Quantity"/>
+      <input type="text" id="category" placeholder="Category"/>
+      <input type="text" id="location" placeholder="Location"/>
+      <input type="number" id="minStock" placeholder="Min Stock"/>
+      <button onclick="addItem()">Add Item</button>
+    </div>
+
+    <input type="text" id="search" placeholder="Search..." oninput="filterItems()"/>
+
+    <div id="inventoryList" class="inventory-list"></div>
+  </div>
+
+  <script src="rnd.js"></script>
+</body>
+</html>
